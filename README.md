@@ -61,7 +61,7 @@ Edit
 LeaveManagementSystem/
 ├── src/
 │   └── main/
-│       ├── java/com/ram/leave/    ← Java backend files
+│       ├── java/com/nikhil/leave/    ← Java backend files
 │       └── resources/
 ├── frontend/
 │   ├── index.html
@@ -78,9 +78,9 @@ Edit
 spring.mail.username=your_email@gmail.com
 spring.mail.password=your_app_password
 🙋 Author
-Ram Naresh Dubey
-📧 dubey.ram9919@gmail.com
+Nikhil Kumar Singh
+📧 nikhil1.mzp@gmail.com
 
 📌 Note
-Frontend is kept simple for demonstration. You can later enhance it using React or Angular.
+Frontend is kept simple for demonstration. 
 
