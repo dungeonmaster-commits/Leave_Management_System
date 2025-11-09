@@ -1,4 +1,4 @@
-package com.ram.leave.dto;
+package com.nikhil.leave.dto;
 
 public class LoginRequest {
     private String email;

@@ -1,9 +1,9 @@
-package com.ram.leave.controller;
+package com.nikhil.leave.controller;
 
-import com.ram.leave.dto.LoginRequest;
-import com.ram.leave.model.User;
-import com.ram.leave.repository.UserRepository;
-import com.ram.leave.util.JwtUtil;
+import com.nikhil.leave.dto.LoginRequest;
+import com.nikhil.leave.model.User;
+import com.nikhil.leave.repository.UserRepository;
+import com.nikhil.leave.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

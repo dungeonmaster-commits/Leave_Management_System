@@ -1,7 +1,7 @@
-package com.ram.leave.service;
+package com.nikhil.leave.service;
 
-import com.ram.leave.model.Leave;
-import com.ram.leave.repository.LeaveRepository;
+import com.nikhil.leave.model.Leave;
+import com.nikhil.leave.repository.LeaveRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

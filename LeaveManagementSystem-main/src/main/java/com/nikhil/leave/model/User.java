@@ -1,4 +1,4 @@
-package com.ram.leave.model;
+package com.nikhil.leave.model;
 
 import javax.persistence.*;
 

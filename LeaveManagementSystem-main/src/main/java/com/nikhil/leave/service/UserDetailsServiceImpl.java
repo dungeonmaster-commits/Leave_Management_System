@@ -1,7 +1,7 @@
-package com.ram.leave.service;
+package com.nikhil.leave.service;
 
-import com.ram.leave.model.User;
-import com.ram.leave.repository.UserRepository;
+import com.nikhil.leave.model.User;
+import com.nikhil.leave.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.*;

@@ -1,4 +1,4 @@
-package com.ram.leave.util;
+package com.nikhil.leave.util;
 
 import io.jsonwebtoken.*;
 import org.springframework.stereotype.Component;

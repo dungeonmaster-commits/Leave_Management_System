@@ -1,6 +1,6 @@
-package com.ram.leave.config;
+package com.nikhil.leave.config;
 
-import com.ram.leave.filter.JwtFilter;
+import com.nikhil.leave.filter.JwtFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

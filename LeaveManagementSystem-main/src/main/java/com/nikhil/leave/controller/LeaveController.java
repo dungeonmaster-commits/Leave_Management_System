@@ -1,7 +1,7 @@
-package com.ram.leave.controller;
+package com.nikhil.leave.controller;
 
-import com.ram.leave.model.Leave;
-import com.ram.leave.service.LeaveService;
+import com.nikhil.leave.model.Leave;
+import com.nikhil.leave.service.LeaveService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

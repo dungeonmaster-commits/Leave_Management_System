@@ -1,6 +1,6 @@
-package com.ram.leave.repository;
+package com.nikhil.leave.repository;
 
-import com.ram.leave.model.Leave;
+import com.nikhil.leave.model.Leave;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
