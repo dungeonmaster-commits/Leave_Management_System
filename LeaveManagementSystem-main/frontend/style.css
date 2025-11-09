@@ -1,0 +1,87 @@
+/* General */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f5f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 30px;
+  color: #2c3e50;
+}
+
+h2 {
+  color: #34495e;
+}
+
+/* Card Layout */
+form, .card, .section {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px 30px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Button group */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#loginStatus,
+#leaveStatus,
+#approveStatus,
+#rejectStatus {
+  margin-top: 10px;
+  color: #27ae60;
+  font-weight: bold;
+}
+
+#logoutSection {
+  margin-top: 20px;
+}
+
+/* Differentiate sections */
+#userSection h2 {
+  color: #2c3e50;
+}
+
+#adminSection h2 {
+  color: #8e44ad;
+}

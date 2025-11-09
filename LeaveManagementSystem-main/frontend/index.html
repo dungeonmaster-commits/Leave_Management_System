@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Leave Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Welcome to Leave Management System</h1>
+
+<!-- Login Choice -->
+<div id="loginChoice">
+    <h2>Login As</h2>
+    <div class="button-group">
+        <button onclick="showLogin('USER')">👤 User</button>
+        <button onclick="showLogin('ADMIN')">🛡️ Admin</button>
+    </div>
+</div>
+
+<!-- Login Form -->
+<div id="loginFormContainer" style="display: none;">
+    <h2 id="loginTitle">Login</h2>
+    <form id="loginForm">
+        <input type="email" id="email" placeholder="Email" required><br>
+        <input type="password" id="password" placeholder="Password" required><br>
+        <button type="submit">Login</button>
+    </form>
+    <p id="loginStatus"></p>
+</div>
+
+<hr>
+
+<!-- User Section -->
+<div id="userSection" style="display: none;">
+    <h2>Apply for Leave</h2>
+    <form id="leaveForm">
+        <input type="date" id="fromDate" required><br>
+        <input type="date" id="toDate" required><br>
+        <input type="text" id="reason" placeholder="Reason" required><br>
+        <button type="submit">Apply</button>
+    </form>
+    <p id="leaveStatus"></p>
+</div>
+
+<!-- Admin Section -->
+<div id="adminSection" style="display: none;">
+    <h2>Approve Leave (Admin Only)</h2>
+    <input type="number" id="approveId" placeholder="Leave ID to Approve"><br>
+    <button onclick="approveLeave()">Approve</button>
+    <p id="approveStatus"></p>
+
+    <h2>Reject Leave (Admin Only)</h2>
+    <input type="number" id="rejectId" placeholder="Leave ID to Reject"><br>
+    <button onclick="rejectLeave()">Reject</button>
+    <p id="rejectStatus"></p>
+</div>
+
+<!-- Logout -->
+<div id="logoutSection" style="display: none;">
+    <button onclick="logout()">Logout</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
